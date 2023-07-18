@@ -1,0 +1,106 @@
+{
+    "info": {
+        "_postman_id": "4c49c691-cf34-4091-89ab-6016f4ec0062",
+        "name": "ExampleRequest",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "http://localhost:3500/example",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3500/example",
+                    "path": [
+                        "example"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3500"
+                }
+            }
+        },
+        {
+            "name": "http://localhost:3500/example",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://localhost:3500/example",
+                    "path": [
+                        "example"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3500"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"exampleString\": \"exampleString\",\n  \"exampleNumber\": \"12345\",\n  \"exampleObject\": {\n    \"example1\": \"example1\",\n    \"example2\": \"example2\"\n  },\n  \"exampleArray\": [\n    \"example1\",\n    \"example2\",\n    \"example3\"\n  ]\n}"
+                }
+            }
+        },
+        {
+            "name": "http://localhost:3500/example",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "http://localhost:3500/example",
+                    "path": [
+                        "example"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3500"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n  \"exampleString\": \"exampleString\"\n}"
+                }
+            }
+        },
+        {
+            "name": "http://localhost:3500/example",
+            "request": {
+                "method": "PUT",
+                "url": {
+                    "raw": "http://localhost:3500/example/643d9d5eb414bdbaf962aa5f",
+                    "path": [
+                        "example",
+                        "643d9d5eb414bdbaf962aa5f"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3500"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\n    \"exampleObject\": {\n      \"example1\": \"example12\",\n      \"example2\": \"example21\"\n    },\n    \"exampleString\": \"exampleStringEdited\",\n    \"exampleNumber\": 54321\n  }"
+                }
+            }
+        }
+    ]
+}
